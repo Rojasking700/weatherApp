@@ -1,0 +1,17 @@
+
+
+.banner{
+    height: 70vh;
+    background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/036/172/weatherboicover.jpg);
+    background-size: cover;
+}
+
+
+/* .header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+} */

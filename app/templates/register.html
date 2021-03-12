@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Register for Ollie Williams Weather report NOW!</h1>
+
+
+
+<form action="" method="POST" class="row g-3">
+    {{ registerUser.hidden_tag() }}
+    <!-- <div class="form-group"> -->
+    <div class="col-md-6">
+      <fieldset>
+        {{ registerUser.username.label }}
+        {{ registerUser.username(class="form-control",placeholder="Username") }}
+    </fieldset>
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.email.label }}
+            {{ registerUser.email(class="form-control",placeholder="email@domain.com") }}
+        </fieldset>
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.firstName.label }}
+            {{ registerUser.firstName(class="form-control",placeholder="First Name") }}
+        </fieldset>
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.lastName.label }}
+            {{ registerUser.lastName(class="form-control",placeholder="Last Name") }}
+        </fieldset>
+    </div>
+    <div class="col-12">
+      <fieldset>
+        {{ registerUser.address.label }}
+        {{ registerUser.address(class="form-control",placeholder="123 Main st") }}
+    </fieldset>
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.city.label }}
+            {{ registerUser.city(class="form-control",placeholder="City") }}
+        </fieldset>
+    </div>
+    <div class="col-md-4">
+        <fieldset>
+            {{ registerUser.state.label }}
+            {{ registerUser.state(class="form-control",placeholder="State") }}
+        </fieldset>
+    </div>
+    <div class="col-md-2">
+        <fieldset>
+            {{ registerUser.zipcode.label }}
+            {{ registerUser.zipcode(class="form-control",placeholder="12345") }}
+        </fieldset>
+    </div>
+    <div class="col-6">
+        <fieldset>
+            {{ registerUser.country.label }}
+            {{ registerUser.country(class="form-control",placeholder="Country") }}
+        </fieldset>
+    </div>
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.password.label }}
+            {{ registerUser.password(class="form-control",placeholder="Password") }}
+        </fieldset>
+      </div>
+      <div class="col-md-6">
+        <fieldset>
+            {{ registerUser.confirmPass.label }}
+            {{ registerUser.confirmPass(class="form-control",placeholder="Confirm Password") }}
+        </fieldset>
+      </div>
+    <div class="col-12">
+        {{ registerUser.submit(class="btn btn-primary") }}
+    </div>
+    <!-- </div> -->
+  </form>
+  
+{% endblock content %}
