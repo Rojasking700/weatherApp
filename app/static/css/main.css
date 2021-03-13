@@ -2,8 +2,10 @@
 
 .banner{
     height: 70vh;
-    background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/036/172/weatherboicover.jpg);
+    background-image: url(https://media1.tenor.com/images/ff45ac0ff46d017423bb922002816ca5/tenor.gif?itemid=15559185);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -15,3 +17,191 @@
     top: 10rem;
     color: white;
 } */
+
+#location-input{
+    padding: 5%;
+}
+
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+.grid-margin,
+.purchace-popup>div {
+    margin-bottom: 25px
+}
+
+.card {
+    border: 0;
+    border-radius: 2px
+}
+
+.card-weather {
+    background: #e1ecff;
+    background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff)
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem
+}
+
+.card-weather .card-body-clear_sky:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-few_clouds:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-scattered_clouds:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-broken_clouds:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-shower_rain:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-rain:first-child {
+    background: url(https://media1.tenor.com/images/8018ec9fbbef0a1d7ba9956e3064d0c8/tenor.gif?itemid=5516318) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-thunderstorm:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-snow:first-child {
+    background: url(https://media.tenor.com/images/c35a0bbf58317b17fd1812faf95cd2ba/tenor.gif) no-repeat center;
+    background-size: cover
+}
+.card-weather .card-body-mist:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+
+.card .card-body {
+    padding: 1.88rem 1.81rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card-weather .weather-date-location {
+    padding: 0 0 38px
+}
+
+.h3,
+h3 {
+    font-size: 1.56rem
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+    color: #969696
+}
+
+p {
+    font-size: 13px
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+    color: #969696
+}
+
+.card-weather .weather-data {
+    padding: 0 0 4.75rem
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto !important
+}
+
+.display-3 {
+    font-size: 2.5rem
+}
+
+.card-weather .card-body {
+    background: #ffffff
+}
+
+.card-weather .weakly-weather {
+    background: #ffffff;
+    overflow-x: auto
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+    flex: 0 0 14.28%;
+    border-right: 1px solid #f2f2f2;
+    padding: 1rem;
+    text-align: center
+}
+
+.mb-0,
+.my-0 {
+    margin-bottom: 0 !important
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+    font-size: 1.2rem
+}
