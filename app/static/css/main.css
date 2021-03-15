@@ -81,40 +81,40 @@ body {
     border-radius: 0.25rem
 }
 
-.card-weather .card-body-clear_sky:first-child {
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+.card-weather .card-body-Clear:first-child {
+    background: url(https://media3.giphy.com/media/gRWyMr9LBkwc8/giphy.gif?cid=ecf05e47x0uu7nivcjeipsy2tg0h815zbl9l257wnzl5x1s5&rid=giphy.gif) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-few_clouds:first-child {
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+.card-weather .card-body-Clouds:first-child {
+    background: url(https://media4.giphy.com/media/2Zx1Pa8Fcs9xu/200w.webp?cid=ecf05e47znoofqkuabaxjx79crii297xqhn99p84t899ipp7&rid=200w.webp) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-scattered_clouds:first-child {
+/* .card-weather .card-body-scattered_clouds:first-child {
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
     background-size: cover
 }
 .card-weather .card-body-broken_clouds:first-child {
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
     background-size: cover
-}
-.card-weather .card-body-shower_rain:first-child {
+} */
+.card-weather .card-body-Drizzle:first-child {
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-rain:first-child {
+.card-weather .card-body-Rain:first-child {
     background: url(https://media1.tenor.com/images/8018ec9fbbef0a1d7ba9956e3064d0c8/tenor.gif?itemid=5516318) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-thunderstorm:first-child {
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+.card-weather .card-body-Thunderstorm:first-child {
+    background: url(https://media1.giphy.com/media/8xY1YYpEZ4dws/200w.webp?cid=ecf05e47wnl8o0o0bft8it9b7ty1i4pbp50pkk1ryksx5z4w&rid=200w.webp) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-snow:first-child {
+.card-weather .card-body-Snow:first-child {
     background: url(https://media.tenor.com/images/c35a0bbf58317b17fd1812faf95cd2ba/tenor.gif) no-repeat center;
     background-size: cover
 }
-.card-weather .card-body-mist:first-child {
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+.card-weather .card-body-Mist:first-child {
+    background: url(https://media3.giphy.com/media/Z98zIhtiePuIo/200w.webp?cid=ecf05e47vjev4ccw3qrz5gthkf31j31e9c18so635d8p05nc&rid=200w.webp) no-repeat center;
     background-size: cover
 }
 
